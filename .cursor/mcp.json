@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "copado-ai": {
+      "url": "https://copadogpt-api.robotic.copado.com/mcp",
+      "headers": {
+        "Authorization": "${env:COPADO_AI_API_KEY}"
+      }
+    }
+  }
+}
